@@ -133,8 +133,11 @@ export class CoinSwap {
 
 export class Token {
 
-    static getUniDenom(tokenId){
+    static getIRISDenom(tokenId){
         return `iris:${tokenId}`
+    }
+    static getUniDenom(tokenId){
+        return `uni:${tokenId}`
     }
 
     static getMainDenom(denom) {

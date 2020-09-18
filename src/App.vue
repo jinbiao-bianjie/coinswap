@@ -190,7 +190,7 @@
                         if (token.id !== "iris") {
                             this.poolLiquidity.push({
                                 value: uDenom,
-                                label: Token.getUniDenom(token.id).toUpperCase(),
+                                label: Token.getIRISDenom(token.id).toUpperCase(),
                             });
                             this.filterData.push(option);
                         }
